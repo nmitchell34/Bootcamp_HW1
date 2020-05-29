@@ -8,9 +8,12 @@
 </head>
 
 <body>
-    <div class="header">
+    <!-- Switched to header from div class header -->
+    <header>
         <h1>Hori<span class="seo">seo</span>n</h1>
-        <div>
+        <!-- Added nav tag to signify the list of links -->
+        <nav>
+            <!-- Changed CSS to include nav under header instead of div -->
             <ul>
                 <li>
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -22,9 +25,15 @@
                     <a href="#social-media-marketing">Social Media Marketing</a>
                 </li>
             </ul>
-        </div>
-    </div>
-    <div class="hero"></div>
+        </nav>
+    <header>
+        <!-- This is the main image on the page, full screen wide. Added span tag section to mimic img alt function for accessibility. -->
+    <section class="hero">
+        <span 
+        role="img" aria-label="A Multifunctional team collaborates on a project">
+        </span>
+    </section>
+    <!-- This is the middle left content section of the page-to switch to main -->
     <div class="content">
         <div class="search-engine-optimization">
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
@@ -71,12 +80,12 @@
             </p>
         </div>
     </div>
-    <div class="footer">
+    <footer>
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
         </p>
-    </div>
+    </footer>
 </body>
 
 </html>
