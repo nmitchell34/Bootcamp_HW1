@@ -7,3 +7,11 @@ Deployment has been done through github pages.
 This project was built with HTML5, and CSS through Visual Studio Code.
 
 Nicholas Mitchell was the only contributor to this project.
+
+Acknowledgements/Websites used to help create this project:
+
+Special thanks to the instructional staff of the Georgia Tech Full Stack Flex Coding Bootcamp. 
+
+https://www.freecodecamp.org/news/semantic-html5-elements/
+https://gist.github.com/PurpleBooth/109311bb0361f32d87a2
+https://w3schools.com
